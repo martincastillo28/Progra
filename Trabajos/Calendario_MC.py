@@ -1,3 +1,4 @@
+#Este codigo crea un calendario de trabajo de 7x7
 import tkinter as tk
 import calendar
 from datetime import date, timedelta
@@ -69,5 +70,6 @@ boton = tk.Button(ventana, text="Cambiar Mes", command=cambiar_mes)
 boton.pack(pady=10)
 
 Mostrar_calendario(*meses[indice_mes])
+
 
 ventana.mainloop()
