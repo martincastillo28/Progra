@@ -15,7 +15,7 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.metrics import accuracy_score
 #Se importan las librerias necesarias para el proceso
 
-# 1. Crear un dataset simple
+# 1. Crear un dataset simple. se escojen datos.
 X, y = make_classification(
     n_samples=200,
     n_features=2,
