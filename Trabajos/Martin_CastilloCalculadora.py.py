@@ -1,5 +1,4 @@
-
-#Trabajo
+#Este codigo crea una calculadora funcional
 import tkinter
 
 ventana = tkinter.Tk()
@@ -98,3 +97,4 @@ tkinter.Button(ventana, text="DEL", command=Borrar, width=10, height=5,bg ="ligh
 
 
 ventana.mainloop()
+
