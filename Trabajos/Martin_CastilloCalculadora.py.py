@@ -1,4 +1,4 @@
-#PRUEBA Y ERROR MONAMI
+
 #Trabajo
 import tkinter
 
@@ -95,5 +95,6 @@ tkinter.Button(ventana, text="Salir", width=21, height=5, command=salir).grid(ro
 tkinter.Button(ventana, text="0", width=10, height=5, command=lambda: resultado("0")).grid(row=5, column=1)
 
 tkinter.Button(ventana, text="DEL", command=Borrar, width=10, height=5,bg ="lightcoral").grid(row=4, column=5)
+
 
 ventana.mainloop()
